@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"></head>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cat.css">
+<body>
+    <div class="bg-colour text-center">
+        <img id="bulb" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png" class="bulb-image" />
+        <img id="cat" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png" class="cat-image" />
+        <div>
+
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="switch-box ml-4">
+                <h1 id="status"> Switch Off</h1>
+                <div class="p-3">
+                    <button class="off-button text-white mr-3" id="off" onclick="Switchoff()">OFF</button>
+                    <button class="on-button text-white ml-3" id="on" onclick="Switchon()">ON</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="cat_blow.js"></script>
+</body>
+
+</html>
